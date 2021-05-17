@@ -15,6 +15,7 @@
 
 .horizontal-list{
 	list-style: none;
+	
 
 }
 .horizontal-list li{
@@ -81,15 +82,32 @@ h1{
 	letter-spacing: 1px;
 	font-size: 40px;
 	color: #02167F;
-	margin-left: 42.5%;
-	width:50px;
-	display: inline;
+	text-align: center;
+	margin: auto;
+	width:auto;
+	
 }
+#skill-heading {
+	position: relative;
+	bottom: 0.3rem;
+}
+#contact span
+{
+	color:white;
+} 
+.section-heading span {
+	font-size: 40px;
+color: #02167F;
+}
+
 .section-icon{
 	margin-top: 10vh;
 }
 
-
+/*#sec{
+	margin:auto;
+	text-align: center;
+}*/
 /* skill section */
 #skills{
 	margin-top: 2rem;
@@ -196,14 +214,15 @@ margin-bottom: 3rem;
 
 .contact-display{
 	margin: auto;
-height:70vh;
+height:65vh;
 width: 100vw;	
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-around;
-position: relative;
-top: 10vh;
+/*position: relative;
+top: 10vh;*/
+margin-top: 5%;
 padding-bottom: 2rem;
 }
 
@@ -345,7 +364,44 @@ box-shadow:0px 0px 6px 5px cyan;
 }
 .education-box{
 	left: 12% !important;
-	width: 30vw;
+	width: auto;
 }
+.skills-display{
+        width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 2rem auto 1rem;
+}
+.mycon{
+	width:40vw;
+	font-size: 15px;
+	height: 30vh;
+	color: white;
+	text-align: left;
+	margin: 10px;
 
+}
+.mycon p{
+	font-size:15px;
+}
+h1{
+	color: white;
+	font-size: 70px;
+	margin-top:50px;
+	margin-bottom: 0px;
+}
+.horizontal-list li a{
+	color:white;
+	text-decoration: none;
+	font-size: 18px;
+	transition: color 0.5s, border-bottom 4s;
+}
+.horizontal-list li{
+	display: inline-block;
+	margin: 8px 5px 5px 0px;
+
+}
 }
